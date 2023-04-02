@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Poppins', sans-serif;;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+.container{
+    width: 200%;
+    height: 100vh;
+    display: flex;
+}
+
+.container section{
+    width: 50%;
+    height: 100vh;
+  
+}
+
+.landinPage{
+transition: 0.4s;
+display: flex;
+}
+.landinPage2{
+    background-color: red;
+}
+
+
+/* SECTION 1 */
+
+.ImgtextLandingPage{
+    background:  url("./Assents/Manicure.jpeg") no-repeat;
+    background-size:cover ;
+}
+
+.filtro{
+    width: 100%;
+    height: 100vh;
+    background-color: #D6CCEE;
+    opacity: 0.2;
+}
+/* Section 2 */
+
+
+.TextLandingPage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.Text{
+    width: 80%;
+    position: relative;
+    bottom: 70px;
+}
+
+.Text h1{
+    font-size: 70px;
+    font-weight: 500;
+    color: #B0AAC1;
+    width: 100%;
+
+}
+
+.Text span{
+    font-size: 30px;
+    font-weight: 300;
+    color: #D7C8C8;
+    position: relative;
+    bottom: 10px;
+}
+
+.Text  p{
+    font-size: 20px;
+    font-weight: 200;
+    color: #404040;
+}
+
+.Text  button{
+width: 150px;
+height: 55px;
+position: relative;
+top: 80px;
+border: none;
+display: flex;
+align-items: center;
+justify-content: center;
+background-color:#B0AAC1 ;
+font-size: bold;
+color: white;
+border-radius: 15px;
+box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.Text  button:hover{
+    opacity: 0.8;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.LandinPage2{
+    width: 100%;
+    height: 100vh;
+    background-color: red;
+
+}
+ 
